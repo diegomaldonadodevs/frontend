@@ -1,0 +1,72 @@
+.container-contacto {
+    height: 100vh;
+    background-image: url(/public/images/aikido/carrusel0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container-contacto::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.container-contacto h3:hover {
+    transform: scale(1.02);
+}
+
+.formulario {
+    position: relative;
+    margin-top: 25px;
+}
+
+.formulario input {
+    width: 60%;
+    min-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2b2e35;
+    color: #ffffff;
+}
+
+.formulario p {
+    padding: 10px;
+}
+
+.formulario p:nth-child(2) {
+    margin-top: 30px;
+}
+
+.formulario textarea {
+    width: 60%;
+    min-height: 80px;
+    resize: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2b2e35;
+    color: #ffffff;
+}
+
+.datos {
+    margin-top: 25px;
+    position: relative;
+}
+
+.datos ul li {
+    list-style: none;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.datos ul i {
+    padding: 20px;
+}
+
+.datos ul i:hover {
+    color: #e23434;
+    transform: scale(1.2);
+}

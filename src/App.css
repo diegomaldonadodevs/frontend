@@ -1,0 +1,13 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+  /* color: #e23434; */
+i {
+  color: white;
+}
+
+nav ul li a.activo {
+  background-color: #e23434;
+}
+
+

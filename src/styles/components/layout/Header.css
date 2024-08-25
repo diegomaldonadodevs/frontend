@@ -1,0 +1,34 @@
+/* Inicio Header */
+.header {
+    background-color: #e23434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.header-list ul {
+    margin-top: 10px;
+    display: flex;
+}
+
+.header-list li,
+.header-list i {
+    color: white;
+}
+
+.header-list li {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+    list-style: none;
+    padding: 10px;
+}
+
+.header-list li i:hover {
+    color: black;
+}
+.header-list li a:hover {
+    color: black;
+}
+
+/* Fin Header */

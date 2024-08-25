@@ -1,0 +1,21 @@
+h2 {
+    margin: 30px auto;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #e23434e0;
+    --bs-accordion-btn-bg: #da62628f;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #962121;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-btn-color: #ffffff63;
+    --bs-accordion-btn-focus-border-color: #ffffff;
+    --bs-accordion-btn-icon-width: 2rem;
+    font-size: 1.25rem;
+}
+
+.accordion-button {
+    font-size: 1.5rem;
+}
+
+
+

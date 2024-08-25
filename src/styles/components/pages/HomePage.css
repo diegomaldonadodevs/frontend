@@ -1,0 +1,80 @@
+/* Inicio Home */
+.bienvenidos {
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/public/images/aikido/carrusel0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.bienvenidos::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, .80);
+}
+
+.saludo {
+    position: relative;
+    margin-left: 20px;
+}
+
+.saludo h1,
+.bienvenidos img {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.saludo h2 {
+    animation-name: desplazar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.bienvenidos img {
+    position: relative;
+    max-width: 200px;
+    opacity: .7;
+    margin-right: 60px;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes desplazar {
+    0% {
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.card {
+    background-color: #2b2e35;
+}
+/* Fin Home */

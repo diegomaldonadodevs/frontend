@@ -1,0 +1,32 @@
+/* Inicio Seccion Aikido Kids */
+.kid-inicio {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff8e;
+    border-radius: 5px;
+    background-color: #2b2e35;
+}
+
+.kid-inicio div {
+    width: 50%;
+    padding: 10px;
+}
+
+.kid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff8e;
+    border-radius: 5px;
+    background-color: #2b2e35;
+}
+
+.kid div {
+    width: 25%;
+    padding: 10px;
+}
+
+.kid div img {
+    width: 100%;
+}
+/* Fin Seccion Aikido Kids */

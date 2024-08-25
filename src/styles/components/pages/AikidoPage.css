@@ -1,0 +1,73 @@
+/* Inicio Seccion Aikido */
+
+.container-aikido {
+    width: 95%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(80px, 150px) repeat(2, 1fr);
+    
+}
+
+.titulo-aikido {
+    grid-column-start: span 4;
+    margin: 0 auto;
+}
+
+.img-aikido-1 {
+    background-image: url(/public/images/aikido/Osensei-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column-start: 1 / 2;
+    grid-row-start: 2 / 3;
+}
+
+.text-aikido-1 {
+    grid-column-start: 2 / 3;
+    grid-row-start: 2 / 3;
+    background-color: #2b2e35;
+    text-align: center;
+}
+
+.img-aikido-2 {
+    background-image: url(/public/images/aikido/carrusel2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100);
+    grid-column-start: 3 / 4;
+    grid-row-start: 2 / 3;
+}
+
+.text-aikido-2 {
+    grid-column-start: 4 / 5;
+    grid-row-start: 2 / 3;
+    background-color: #2b2e35;
+    text-align: center;
+}
+
+.img-aikido-3 {
+    background-image: url(/public/images/aikido/aikido-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column-start: span 2;
+    grid-row-start: 3 / 4;
+}
+
+.text-aikido-3 {
+    grid-column-start: span 2;
+    grid-row-start: 3 / 4;
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+}
+
+.container-aikido div h3, p {
+    padding: 20px;
+}
+
+
+
+
+/* Fin Seccion Aikido */

@@ -1,0 +1,29 @@
+
+nav div ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    padding: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    
+    
+}
+
+nav div a {
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #e23434;
+    border-radius: 5px;
+}
+
+nav ul li a.activo {
+    background-color: #e23434;
+    border-radius: 5px;
+}

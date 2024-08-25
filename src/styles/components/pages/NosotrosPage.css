@@ -1,0 +1,133 @@
+/* Inicio Seccion Nosotros */
+.container-nosotros {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(80px, 150px) repeat(3, 1fr);
+}
+
+.container-nosotros img {
+    filter: grayscale(0);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-nosotros img:hover {
+    transform: scale(1.09);
+} 
+
+.nos-1 {
+    grid-column-start: span 4;
+}
+
+.img-1 {
+    grid-column-start: 4 / -1;
+}
+
+.nos-3 {
+    grid-column-start: 2 / 3;
+    grid-row-start: 3 / 4;
+}
+
+.img-2 {
+    grid-column-start: 1 / 2;
+    grid-row-start: 3 / 4;
+}
+
+.nos-4 {
+    grid-column-start: 4 / -1;
+    grid-row-start: 3 / 4;
+}
+
+.img-3 {
+    grid-column-start: 3 / 4;
+    grid-row-start: 3 / 4;
+}
+
+.nos-5 {
+    grid-column-start: 2 / 3;
+    grid-row-start: 4 / 5;
+}
+
+.img-4 {
+    grid-column-start: 1 / 2;
+    grid-row-start: 4 / 5;
+}
+
+.nos-6 {
+    grid-column-start: 4 / -1;
+    grid-row-start: 4 / 5;
+}
+
+.img-5 {
+    grid-column-start: 3 / 4;
+    grid-row-start: 4 / 5;
+}
+
+.nos-2 {
+    grid-column-start: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #2b2e35;
+}
+
+.nos-3,
+.nos-4,
+.nos-5,
+.nos-6,
+.nos-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.nos-4 {
+    border-right: 1px solid #ffffff;
+}
+
+.nos-5,
+.nos-6 {
+    background-color: #2b2e35;
+}
+
+.nos-7::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.nos-7 {
+   grid-column-start: span 4;
+   text-align: center;
+   font-size: 1.35rem;
+   background-image: url(/public/images/aikido/aikido-3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.nos-7 p {
+    position: relative;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    padding: 15px;
+}
+
+
+/* Fin Seccion Nosotros */
